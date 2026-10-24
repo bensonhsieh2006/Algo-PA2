@@ -14,7 +14,7 @@ all	: bin/mps
 
 bin/mps 		: main_opt.o
 			$(CC) $(OPTFLAGS) main_opt.o -o bin/mps
-main_opt.o 	   	: src/main.cpp
+main_opt.o 	   	: src/main_real_final.cpp
 			$(CC) $(CFLAGS) $< -o $@
 
 clean:
