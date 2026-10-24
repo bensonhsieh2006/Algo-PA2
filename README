@@ -29,8 +29,11 @@ HOW TO RUN:
 	./bin/mps inputs/12.in outputs/12.out
 
 ## Others:
-Use ```generate.cpp``` to generate worst case test data:
+- Note that the final source file is named ```main_real_final.cpp```
 
+- The report is in ```./doc/report.pdf```
+
+- Use ```generate.cpp``` to generate worst case test data:
 ```bash
 g++ -O2 generate.cpp -o generate
 ./generate <case>
