@@ -1,6 +1,18 @@
 This is README file for Algorithm PA#2
 Author: 謝秉宸 B13901186
 Date: 2025/05/01
+
+## Notice:
+- Note that the final source file is named ```main_real_final.cpp```
+
+- The report is in ```./doc/report.pdf```
+
+- Use ```generate.cpp``` to generate worst case test data:
+```bash
+g++ -O2 generate.cpp -o generate
+./generate <case>
+```
+
 =====
 SYNOPSIS:
 
@@ -27,14 +39,3 @@ HOW TO RUN:
 	For example,
 	under b13901186_pa2/
 	./bin/mps inputs/12.in outputs/12.out
-
-## Others:
-- Note that the final source file is named ```main_real_final.cpp```
-
-- The report is in ```./doc/report.pdf```
-
-- Use ```generate.cpp``` to generate worst case test data:
-```bash
-g++ -O2 generate.cpp -o generate
-./generate <case>
-```
